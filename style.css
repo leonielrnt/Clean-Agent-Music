@@ -2,8 +2,8 @@ body {
     font-family: 'Helvetica', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1e1e1e; /* Fond noir */
-    color: #fff; /* Texte blanc pour contraste */
+    background-color: #1e1e1e;
+    color: #fff;
 }
 
 .container {
@@ -13,28 +13,28 @@ body {
     max-width: 68vh;
     
     margin: auto;
-    margin-top: 9vh;
+    margin-top: 5vh;
     padding: 2vh;
-    background: #1a1a1a; /* Fond gris foncé pour contraste */
+    background: #1a1a1a;
     border-radius: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Ombre plus subtile */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #fff; /* Texte blanc */
+    color: #fff;
 }
 
 .chat-box {
     height: 100%;
     overflow-y: auto;
-    border: 1px solid #333; /* Bordure gris foncé */
+    border: 1px solid #333;
     border-radius: 20px;
     padding: 10px;
     margin-bottom: 10px;
-    background: #1a1a1a; /* Fond gris foncé */
-    color: #fff; /* Texte blanc */
+    background: #1a1a1a;
+    color: #fff;
 }
 
 .chat-box .message {
@@ -90,4 +90,17 @@ h1 {
     text-align: center;
     margin-top: 10px;
     padding-bottom: 20px;
+}
+
+#form-button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+    
+#form-button a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
